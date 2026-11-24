@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Visite | Andaluz Gastronomia</title>
+<meta name="description" content="Endereço, horários do salão e do iFood e como pedir no Andaluz Gastronomia, em Jundiaí.">
+<meta name="theme-color" content="#1A0B0D">
+<script>document.documentElement.classList.add("js");if("scrollRestoration" in history)history.scrollRestoration="manual";try{if(sessionStorage.getItem("cortina")){document.documentElement.classList.add("chegando");sessionStorage.removeItem("cortina")}}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rakkas&family=Proza+Libre:wght@400;500;600;700&family=Aref+Ruqaa:wght@400;700&display=swap">
+<link rel="stylesheet" href="css/style.css?v=1795540876">
+</head>
+<body data-pagina="visite">
+
+<div class="cortina" aria-hidden="true"><img src="img/logo-light.png" alt=""></div>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="nav" id="nav">
+  <a class="nav-logo" href="index.html" aria-label="Andaluz Gastronomia, página inicial"><img src="img/logo-light.png" alt="Andaluz Gastronomia" width="104" height="50"></a>
+  <nav aria-label="Páginas">
+    <a href="cardapio.html">Cardápio</a>
+    <a href="noite-arabe.html">Noite árabe</a>
+    <a href="nossa-historia.html">Nossa história</a>
+    <a href="visite.html" aria-current="page">Visite</a>
+  </nav>
+  <a class="pill pill-zap nav-cta" href="https://wa.me/5511988937499" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-zap"/></svg>Pedir no WhatsApp</a>
+  <button class="nav-menu" type="button" aria-expanded="false" aria-controls="menu-movel"><span></span><span></span><b>Menu</b></button>
+</header>
+
+<div class="menu-movel" id="menu-movel" hidden>
+  <nav aria-label="Páginas">
+    <a href="index.html">Início</a>
+    <a href="cardapio.html">Cardápio</a>
+    <a href="noite-arabe.html">Noite árabe</a>
+    <a href="nossa-historia.html">Nossa história</a>
+    <a href="visite.html" aria-current="page">Visite</a>
+  </nav>
+  <a class="pill pill-zap" href="https://wa.me/5511988937499" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-zap"/></svg>Pedir no WhatsApp</a>
+  <p>Mercadão da Ferroviários, Jundiaí · terça a domingo, 11h às 15h</p>
+</div>
+
+<main id="conteudo">
+  <!-- CABECALHO DA PAGINA -->
+  <section class="cab-pag" aria-labelledby="t-pag">
+    <div class="cab-pag-txt">
+      <span class="ar cab-ar" lang="ar">أهلاً وسهلاً</span>
+      <h1 id="t-pag" class="titulo-mask cab-h"><span class="linha">Visite</span><span class="linha ouro">ou peça.</span></h1>
+      <p class="cab-lede">Estamos no Mercadão da Ferroviários, em Jundiaí. Almoço no salão de terça a domingo, e delivery pelo iFood.</p>
+      <p class="status" role="status"><span class="ponto" aria-hidden="true"></span><span class="status-texto">Terça a domingo, das 11h às 15h</span></p>
+    </div>
+    <div class="cab-pag-visual">
+      <figure class="foto-tilt"><img src="img/salao-letreiro.jpg" alt="Salão do Andaluz no Mercadão da Ferroviários" style="object-position:50% 35%"></figure>
+      <span class="adesivo ad-cab">Mercadão da Ferroviários</span>
+    </div>
+  </section>
+
+  <!-- INFO -->
+  <section class="info" aria-label="Endereço, horários e contato">
+    <div class="info-grade">
+      <article class="bloco bloco-end">
+        <h2>Endereço</h2>
+        <p class="grande">Mercadão da Ferroviários</p>
+        <p>Jundiaí, SP · CEP 13201-007</p>
+        <a class="pill pill-escura" href="https://www.google.com/maps/search/?api=1&amp;query=Andaluz+Gastronomia+Mercad%C3%A3o+da+Ferrovi%C3%A1rios+Jundia%C3%AD" target="_blank" rel="noopener">Abrir no mapa<svg aria-hidden="true"><use href="#i-seta"/></svg></a>
+      </article>
+      <article class="bloco bloco-zap">
+        <h2>WhatsApp</h2>
+        <p class="grande" id="fone">(11) 98893-7499</p>
+        <p>Pedidos, reservas e o que tem no bufê hoje.</p>
+        <div class="linha-botoes"><a class="pill pill-zap" href="https://wa.me/5511988937499" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-zap"/></svg>Abrir conversa</a><button class="pill pill-linha copiar" id="copiar" type="button">Copiar número</button></div>
+      </article>
+      <article class="bloco bloco-semana">
+        <div class="semana-cab"><h2>Quando estamos abertos</h2><div class="legenda"><span><i class="i-s"></i>Salão</span><span><i class="i-d"></i>iFood</span></div></div>
+        <div class="dias" id="dias"></div>
+        <div class="escala" aria-hidden="true"><span></span><div><span style="left:0;transform:none">10h</span><span style="left:25%">13h</span><span style="left:50%">16h</span><span style="left:75%">19h</span><span style="left:100%;transform:translateX(-100%)">22h</span></div></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PASSOS -->
+  <section class="passos" aria-labelledby="t-passos">
+    <h2 id="t-passos" class="titulo-mask"><span class="linha">Do balcão</span><span class="linha ouro">pro seu prato.</span></h2>
+    <div class="passos-grade">
+      <svg class="caminho" viewBox="0 0 1000 120" preserveAspectRatio="none" aria-hidden="true"><path d="M40 60 C 200 10, 330 110, 500 60 S 800 10, 960 60"/></svg>
+      <div class="passo"><span class="bola">1</span><h3>Chega no Mercadão</h3><p>Terça a domingo, das 11h às 15h, no Mercadão da Ferroviários.</p></div>
+      <div class="passo"><span class="bola">2</span><h3>Monta do seu jeito</h3><p>Bufê self-service com pratos árabes e brasileiros lado a lado.</p></div>
+      <div class="passo"><span class="bola">3</span><h3>Ou pede em casa</h3><p>No iFood, de quarta a sábado até 21h30 e domingo até 15h.</p></div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="faixa-cta" aria-labelledby="t-cta">
+    <h2 id="t-cta">Te esperamos no almoço.</h2>
+    <a class="pill pill-escura" href="https://wa.me/5511988937499" target="_blank" rel="noopener">Falar no WhatsApp<svg aria-hidden="true"><use href="#i-seta"/></svg></a>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <div class="rodape-grade">
+    <p class="rodape-frase">Da nossa família para a sua.</p>
+    <div><h4>Navegue</h4><ul><li><a href="index.html">Início</a></li><li><a href="cardapio.html">Cardápio</a></li><li><a href="noite-arabe.html">Noite árabe</a></li><li><a href="nossa-historia.html">Nossa história</a></li><li><a href="visite.html">Visite</a></li></ul></div>
+    <div><h4>Fale com a gente</h4><ul class="contatos">
+      <li><a href="https://wa.me/5511988937499" target="_blank" rel="noopener"><span class="ic ic-zap"><svg aria-hidden="true"><use href="#i-zap"/></svg></span>(11) 98893-7499</a></li>
+      <li><a href="https://www.instagram.com/andaluz.gastronomia/" target="_blank" rel="noopener"><span class="ic ic-insta"><svg aria-hidden="true"><use href="#i-insta"/></svg></span>@andaluz.gastronomia</a></li>
+    </ul></div>
+    <div><h4>Onde estamos</h4><p>Mercadão da Ferroviários<br>Jundiaí, SP · 13201-007</p><p class="horas">Salão: terça a domingo, 11h às 15h<br>iFood: quarta a sábado até 21h30, domingo até 15h</p></div>
+  </div>
+  <div class="rodape-base"><span>© 2026 Andaluz Gastronomia</span><button class="pausa" id="pausa" type="button" aria-pressed="false">Pausar animações</button><span>Comida árabe de família em Jundiaí</span></div>
+</footer>
+
+<a class="zap-flutua" href="https://wa.me/5511988937499" target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><svg aria-hidden="true"><use href="#i-zap"/></svg></a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-zap" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.6 14.1c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3.1s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.6 2.1 1.1 1 2.1 1.3 2.4 1.4.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.4Z"/></symbol>
+  <symbol id="i-seta" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M5 12h13M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-insta" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></symbol>
+</svg>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="js/main.js?v=1795540876"></script>
+</body>
+</html>
