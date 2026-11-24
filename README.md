@@ -17,3 +17,10 @@ Abrir http://localhost:3040
 - `img/`: fotos do Instagram do cliente (substituir pelos originais em alta)
 
 Pendências: link do iFood, ano de fundação, confirmar preço da noite árabe (R$ 85 é da edição de setembro/2026), fotos originais e logo em vetor.
+
+## Publicação
+
+- GitHub (privado): https://github.com/Gringadas/andaluz-gastronomia-site
+- Vercel: time `gringo1`, projeto `andaluz-gastronomia-site`, https://andaluz-gastronomia-site.vercel.app
+- Integração Git ligada: push na `main` publica em produção; outras branches geram preview.
+- Fluxo: editar `paginas/`, rodar `python3 build.py`, commitar o HTML gerado junto.
