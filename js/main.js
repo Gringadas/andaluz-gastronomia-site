@@ -176,6 +176,7 @@
   });
 
   function iniciar() {
+    if (!location.hash) { window.scrollTo(0, 0); lenis.scrollTo(0, { immediate: true, force: true }); }
     mascaraLinhas('.hero-h1 .linha, .titulo-mask .linha, .final-h .linha');
 
     /* ---------- entrada da pagina: cortina sobe e o topo entra ---------- */
